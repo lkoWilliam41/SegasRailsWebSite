@@ -37,7 +37,7 @@ let headerComponent = `
                        
                             <div class="logo-header">
                                 <div class="logo-header-inner logo-header-one">
-                                    <a href="index-2.html">
+                                    <a href="index.html">
                                     <img src="images/segaslogophot.png" alt="" />
                                     </a>
                                 </div>
@@ -69,7 +69,7 @@ let headerComponent = `
                             <div class="nav-animation header-nav navbar-collapse collapse d-flex justify-content-center">
                         
                                 <ul class=" nav navbar-nav">
-                                    <li><a href="index-2.html">Accueil</a>
+                                    <li><a href="index.html">Accueil</a>
                                     </li>
 
                                     <li><a href="services-2.html">Services</a>
@@ -134,7 +134,7 @@ footerComponent = `
                         	<div class="footer-h-left"> 
                                 <div class="widget widget_about">
                                     <div class="logo-footer clearfix">
-                                        <a href="index-2.html"><img src="images/segaslogophot.png" alt="" ></a>
+                                        <a href="index.html"><img src="images/segaslogophot.png" alt="" ></a>
                                     </div>
                                     <p>
                                     Fondée en 2016, SEGAS RAIL est un GIE structuré autour de cinq entreprises spécialisées dans le BTP. 
@@ -181,7 +181,7 @@ footerComponent = `
                                     <div class="widget widget_services">
                                         <h3 class="widget-title">Liens Utilies</h3>
                                         <ul>
-                                            <li><a href="index-2.html">Acceuil</a><a href="services-2.html">Services</a></li>
+                                            <li><a href="index.html">Acceuil</a><a href="services-2.html">Services</a></li>
                                             <li><a href="about-1.html">A propos</a><a href="charte-ChefdEquipe.html">Charte du chef d'équipe</a></li>
                                             <li><a href="charte-Referent.html">Charte du Réferent</a><a href="charte-AEV.html">Charte de l'AEV</a></li>
                                             <li><a href="services-1.html">Services </a><a href="contact-1.html">Contact </a></li>
