@@ -17305,22 +17305,26 @@ background: linear-gradient(0deg, rgba(255,94,21,1) 0%, rgba(0,23,60,1) 100%);
     padding: 20px 20px;
 }
 
-/* DEFILEMENT ILIMITE DE LOGO  */
+/* Conteneur principal Slide */
 .slider-container {
 	overflow: hidden;
 	white-space: nowrap;
 	position: relative;
 	width: 100%;
+	padding: 20px 0;
   }
   
+  /* Animation du slider */
   .slider-track {
 	display: flex;
+	flex-wrap: nowrap;
 	align-items: center;
 	gap: 20px;
-	animation: scroll 70s linear infinite;
+	animation: scroll 50s linear infinite;
 	width: max-content;
   }
   
+  /* Animation fluide */
   @keyframes scroll {
 	from {
 	  transform: translateX(0);
@@ -17330,10 +17334,12 @@ background: linear-gradient(0deg, rgba(255,94,21,1) 0%, rgba(0,23,60,1) 100%);
 	}
   }
   
+  /* Pause l’animation au survol */
   .slider-track:hover {
-	animation-play-state: paused; /* Pause au survol */
+	animation-play-state: paused;
   }
   
+  /* Styles des images */
   .slider-track .item {
 	flex: 0 0 auto;
 	display: flex;
@@ -17342,9 +17348,16 @@ background: linear-gradient(0deg, rgba(255,94,21,1) 0%, rgba(0,23,60,1) 100%);
   }
   
   .slider-track .item img {
-	height: auto; /* Respecte la taille d'origine */
-	max-height: 100px; /* Empêche que l'image dépasse trop si nécessaire */
-	width: auto; /* Aucune déformation */
+	height: auto;
+	max-height: 100px;
+	width: auto;
+	object-fit: contain;
+	transition: transform 0.3s ease;
+  }
+  
+  /* Effet zoom léger au survol */
+  .slider-track .item img:hover {
+	transform: scale(1.1);
   }
 
 /*Testimonial 3*/
