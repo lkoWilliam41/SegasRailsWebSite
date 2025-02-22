@@ -1448,13 +1448,42 @@ $.fn.owlFilter = function(data, callback) {
 	
 })(window.jQuery);
 
-document.addEventListener("DOMContentLoaded", function () {
-	const track = document.querySelector(".slider-track");
-	const items = Array.from(track.children);
-	
-	// Duplication automatique des logos pour un effet infini
-	items.forEach(item => {
-	  let clone = item.cloneNode(true);
-	  track.appendChild(clone);
-	});
-  });
+// DEFILEMENT INFINI//
+  $('.slider-track').slick({
+	speed: 1000,
+	autoplay: false,
+	autoplaySpeed: 3000,
+	dots: false,
+	fade: false,
+	slidesToShow: 6,
+	slidesToScroll: 1,
+	arrows: false,
+	prevArrow: "<i class='review__arrow review__prev--arrow fal fa-long-arrow-left'></i>",
+	nextArrow: "<i class='review__arrow review__next--arrow fal fa-long-arrow-right'></i>",
+	responsive: [
+		{
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 5,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: false
+			}
+		},
+		{
+			breakpoint: 600,
+			settings: {
+				slidesToShow: 4,
+				slidesToScroll: 1
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+		}
+	]
+});
+// DEFILEMENT INFINI THE END//
