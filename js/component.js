@@ -192,12 +192,10 @@ footerComponent = `
                                         <h3 class="widget-title">Liens Utilies</h3>
                                         <ul>
                                             <li><a href="index.html">Acceuil</a><a href="services-2.html">Services</a></li>
-                                            <li><a href="owendo.html">Gare d'Owendo</a><a href="ndjole.html">Gare de Ndolé</a></li>
-                                            <li><a href="booue.html">Gare de Booué</a><a href="moanda.html">Gare de Moanda</a></li>
-                                            <li><a href="">Blog </a><a href="franceville.html">Gare de Franceville</a></li>
                                             <li><a href="about-1.html">A propos</a><a href="charte-ChefdEquipe.html">Charte du chef d'équipe</a></li>
                                             <li><a href="charte-Referent.html">Charte du Réferent</a><a href="charte-AEV.html">Charte de l'AEV</a></li>
                                             <li><a href="services-1.html">Services </a><a href="contact-1.html">Contact </a></li>
+                                            <li><a href="">Blog </a></li>
                                         </ul>
                                     </div>
                             	</div>                                
