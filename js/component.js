@@ -160,13 +160,7 @@ footerComponent = `
                                         <li> <i class="fa fa-phone"></i>+(241) 663 362 00 </li>
                                     </ul>  
                                 </div>
-                                <ul class="social-icons  wt-social-links footer-social-icon">
-                                    <li><a href="javascript:void(0);" class="fa fa-google"></a></li>
-                                    <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                    <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                    <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                    <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                </ul> 
+                               
                             </div>                              
                             
                         </div> 
@@ -196,8 +190,16 @@ footerComponent = `
                                             <li><a href="charte-Referent.html">Charte du Réferent</a><a href="charte-AEV.html">Charte de l'AEV</a></li>
                                             <li><a href="services-1.html">Services </a><a href="contact-1.html">Contact </a></li>
                                             <li><a href="">Blog </a></li>
+                                            
                                         </ul>
                                     </div>
+                                   <div  class="col-lg-5 col-md-12 col-sm-12">
+                                        <ul class="social-icons  wt-social-links footer-social-icon">
+                                            <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
+                                            <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
+                                            <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+                                        </ul> 
+                                   </div> 
                             	</div>                                
                             
                             </div>
