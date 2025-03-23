@@ -72,16 +72,25 @@ let headerComponent = `
                                     <li><a href="index.html">Accueil</a>
                                     </li>
 
-                                    <li><a href="services-2.html">Services</a>
+                                    <li><a href="metiers-2.html">metiers</a>
                                     </li>
 
-                                    <li><a href="owendo.html">Grandes Gares</a>
-                                        <ul class="sub-menu">                                     
+                                    <li><a href="owendo.html">Sites</a>
+                                        <ul class="sub-menu menu-site">                                     
                                             <li><a href="owendo.html">Gare d'Owendo</a></li>
+                                            <li><a href="owendo.html">Gare de Ntoum</a></li>
+                                            <li><a href="owendo.html">Gare d'Andem</a></li>
+                                            <li><a href="owendo.html">Gare de Mbel</a></li>
+                                            <li><a href="owendo.html">Gare d'Oyan</a></li>
                                             <li><a href="ndjole.html">Gare de Ndolé</a></li>
-                                            <li><a href="booue.html">Gare de Booué</a>
-                                            <li><a href="moanda.html">Gare de Moanda</a>
-                                            <li><a href="franceville.html">Gare de Franceville</a>
+                                            <li><a href="ndjole.html">Gare d'Otoumbi</a></li>
+                                            <li><a href="ndjole.html">Gare de la Lopé</a></li>
+                                            <li><a href="booue.html">Gare de Booué</a></li>
+                                            <li><a href="booue.html">Gare de Mouyabi</a></li>
+                                            <li><a href="booue.html">Gare de Lastourville</a></li>
+                                            <li><a href="booue.html">Gare de Lifouta</a></li>
+                                            <li><a href="moanda.html">Gare de Moanda</a></li>
+                                            <li><a href="franceville.html">Gare de Franceville</a></li>
                                         </ul>                                
                                    </li>
                                     
@@ -168,8 +177,8 @@ footerComponent = `
 						<div class="col-lg-7 col-md-12 col-sm-12">
                         	<div class="row footer-h-right">
                             	<div class="col-lg-5 col-md-4">
-                                    <div class="widget widget_services">
-                                        <h3 class="widget-title">Nos Services</h3>
+                                    <div class="widget widget_metiers">
+                                        <h3 class="widget-title">Nos metiers</h3>
                                         <ul>
                                             <li>Chef d'équipe</li>
                                             <li>Référent HEC</li>
@@ -182,13 +191,13 @@ footerComponent = `
                             	</div>
 
                             	<div class="col-lg-7 col-md-8">
-                                    <div class="widget widget_services">
+                                    <div class="widget widget_metiers">
                                         <h3 class="widget-title">Liens Utilies</h3>
                                         <ul>
-                                            <li><a href="index.html">Acceuil</a><a href="services-2.html">Services</a></li>
+                                            <li><a href="index.html">Acceuil</a><a href="metiers-2.html">metiers</a></li>
                                             <li><a href="about-1.html">A propos</a><a href="charte-ChefdEquipe.html">Charte du chef d'équipe</a></li>
                                             <li><a href="charte-Referent.html">Charte du Réferent</a><a href="charte-AEV.html">Charte de l'AEV</a></li>
-                                            <li><a href="services-1.html">Services </a><a href="contact-1.html">Contact </a></li>
+                                            <li><a href="metiers-2.html">metiers </a><a href="contact-1.html">Contact </a></li>
                                             <li><a href="">Blog </a></li>
                                             
                                         </ul>

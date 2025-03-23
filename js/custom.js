@@ -285,9 +285,9 @@ function cart_block(){
 	}
 
 	
-// Home page Services function by = owl.carousel.js ========================== //
-	function services_slider(){
-	jQuery('.services-slider').owlCarousel({
+// Home page metiers function by = owl.carousel.js ========================== //
+	function metiers_slider(){
+	jQuery('.metiers-slider').owlCarousel({
 		loop:true,
 		autoplay:true,
 		nav:true,
@@ -765,10 +765,10 @@ function testimonial_13_content(){
 	}
 		
 
-// > services-style-new carousel function by = owl.carousel.js ========================== //
-	function services_style_new(){
+// > metiers-style-new carousel function by = owl.carousel.js ========================== //
+	function metiers_style_new(){
 		
-		var owl = jQuery('.services-style-new').owlCarousel({
+		var owl = jQuery('.metiers-style-new').owlCarousel({
 			loop:true,
 			autoplay:true,
 			nav:true,
@@ -860,8 +860,8 @@ function testimonial_13_content(){
 	}
 
 	//  Service Gallery Carousel two function by = owl.carousel.js ========================== //
-	function services_gallery_carousel_two(){
-		jQuery('.services-gallery-two').owlCarousel({
+	function metiers_gallery_carousel_two(){
+		jQuery('.metiers-gallery-two').owlCarousel({
 			loop:true,
 			nav:true,
 			dots: false,				
@@ -1314,7 +1314,7 @@ $.fn.owlFilter = function(data, callback) {
 		// Project slider function by = owl.carousel.js ========================== //
 		project_detail_slider(),		
 		// Home page visited place function by = owl.carousel.js ========================== //
-		services_slider(),
+		metiers_slider(),
 		// Home page how-we-work function by = owl.carousel.js ========================== //
 	    how_we_work(),	
         // Home page Project Slider function by = owl.carousel.js ========================== //
@@ -1346,7 +1346,7 @@ $.fn.owlFilter = function(data, callback) {
 		// > Home_project_slider Full Screen with no margin function by = owl.carousel.js ========================== //
 	    home3_projects_slider(),
 		// > project-style-new carousel function by = owl.carousel.js ========================== //
-		services_style_new(),	
+		metiers_style_new(),	
         // > home_projects_filter Full Screen with no margin function by = owl.carousel.js ========================== //
 	    home_projects_filter(),
 		//  Service Gallery Carousel twelve function by = owl.carousel.js ========================== //
@@ -1354,7 +1354,7 @@ $.fn.owlFilter = function(data, callback) {
 		// Home page Testimonial Slider function by = owl.carousel.js ========================== //
 	    testimonial_12_content(),
 	    // Service Gallery Carousel two function by = owl.carousel.js ========================== //
-	    services_gallery_carousel_two(),
+	    metiers_gallery_carousel_two(),
 		//  Client logo Carousel function by = owl.carousel.js ========================== //
 		home_client_carousel_11(),
 		//  Team Carousel function by = owl.carousel.js ========================== //
