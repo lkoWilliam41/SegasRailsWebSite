@@ -97,12 +97,12 @@ let headerComponent = `
                                     <li><a href="about-1.html">A propos</a>                              
                                     </li>                                    
                                     
-                                    <li><a href="charte-ChefdEquipe.html">Nos Chartes</a>
+                                    <li><a href="charte-ChefdEquipe.html">Chartes & Politiques</a>
                                         <ul class="sub-menu">                                     
                                             <li><a href="charte-ChefdEquipe.html">Charte du Chef d'équipe</a></li>
                                             <li><a href="charte-Referent.html">Charte du Référent</a></li>
                                             <li><a href="charte-AEV.html">Charte de l'AEV</a>
-                                            <li><a href="charte-et-politique.html">Charte et politique</a>
+                                            <li><a href="charte-environnementale.html">Charte Environnementale</a>
                                         </ul>                                
                                    </li>
                                     <li>
