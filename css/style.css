@@ -18942,6 +18942,13 @@ background: linear-gradient(0deg, rgba(255,94,21,1) 0%, rgba(0,23,60,1) 100%);
     scrollbar-width: thin; /* Minimise la largeur du scroll (pour Firefox) */
     scrollbar-color: #888 #f1f1f1; /* Couleur du scroll */
 }
+
+.menu-charte{
+    max-height: 200px; /* Ajuste la hauteur maximale */
+    overflow-y: auto; /* Active le scroll vertical */
+    scrollbar-width: thin; /* Minimise la largeur du scroll (pour Firefox) */
+    scrollbar-color: #888 #f1f1f1; /* Couleur du scroll */
+}
 .header-style-11 .has-child li .submenu-toogle { opacity: 0.9;}
 .header-style-11 .has-child.nav-active > a + .submenu-toogle.glyphicon-chevron-right:before { content: "\e114";}
 .header-style-11 .has-child.nav-active > a + .submenu-toogle.glyphicon-plus::before {content: "\2212";}

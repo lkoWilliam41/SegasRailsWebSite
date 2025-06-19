@@ -98,7 +98,7 @@ let headerComponent = `
                                     </li>                                    
                                     
                                     <li><a href="charte-ChefdEquipe.html">Chartes & Politiques</a>
-                                        <ul class="sub-menu">                                     
+                                        <ul class="sub-menu menu-charte">                                     
                                             <li><a href="charte-ChefdEquipe.html">Charte du Chef d'équipe</a></li>
                                             <li><a href="charte-Referent.html">Charte du Référent</a></li>
                                             <li><a href="charte-AEV.html">Charte de l'AEV</a>
