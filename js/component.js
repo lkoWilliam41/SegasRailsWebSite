@@ -104,6 +104,7 @@ let headerComponent = `
                                             <li><a href="charte-AEV.html">Charte de l'AEV</a>
                                             <li><a href="charte-environnementale.html">Charte Environnementale</a>
                                             <li><a href="politique-antidrogue.html">Politique Antidrogue</a>
+                                            <li><a href="politique-environnementale.html">Politique Environnementale</a>
                                             <li><a href="politique-sst.html">Politique SST</a>
                                         </ul>                                
                                    </li>
