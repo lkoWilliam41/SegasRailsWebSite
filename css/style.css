@@ -5897,6 +5897,14 @@ div.sep-leaf-left:before{	display:none;}
 	filter: sepia(0);
 }
 
+.section-titre{
+	position: relative;
+	top: -20px;
+}
+
+.titre-poste{
+	font-size: 16px !important;
+}
 
 /*10.11 image-blurr */
 
